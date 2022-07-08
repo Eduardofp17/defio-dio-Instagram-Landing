@@ -1,0 +1,340 @@
+:root{
+    --branco:#FAFAFA;
+    --preto:#000000;
+    --cinza:#e0dede;
+    --azul:#B2DFFC;
+    --cinza-escuro:#b4b3b3;
+    --azul-escuro:#385185;
+    --azul-claro:#0095F6;
+}
+.everything{
+    margin:auto;
+    width:100%;
+    height:100%;
+}
+body{
+    background-color: var(--branco);
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+
+}
+.body{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+    margin-top: 150px;
+    text-align: center;
+    margin-right: 360px;
+}
+.cellPhones{
+    width:600px;
+    height:600px;
+   margin:  auto;
+ 
+}
+.Cell1{
+    width:550px;
+    z-index: 15;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width:350px;
+    height:450px;
+    border: 1.5px solid var(--cinza) ;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 50px;
+}
+.logoFB{
+    width:25px;
+    height:20px;
+    margin: auto;
+    
+}
+.logoInsta{
+    width:170px;
+    margin: auto;
+}
+input{
+    width:250px;
+    height:20px;
+    font-size: 12px;
+    border: 1px solid var(--cinza);
+    padding: 10px;
+    background-color: var(--branco);
+}
+.inputs{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.OtherMethod{
+    width:260px;
+    height:60px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: -6.5px;
+}
+button{
+    width:250px;
+    font-size: 17px;
+    height:25px;
+    text-align: center;
+    background-color: var(--azul);
+    color:var(--branco)
+}
+.leftLine{
+    width:105px;
+    height:1px;
+    background-color: var(--cinza);
+    margin: auto;
+    text-align: left;
+}
+.rightLine{
+    width:105px;
+    height:1px;
+    background-color: var(--cinza);
+    margin: auto;
+}
+.OR{
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    gap:5px;
+    text-align: center;
+
+}
+.OR p{
+    font-weight: 450;
+    color:var(--cinza-escuro);
+    
+}
+.LoginWithFB{
+    width:200px;
+    height: 40px;
+    font-size: 14px;
+    display: flex;
+    flex-direction:row ;
+    margin: auto;
+    color:var(--azul-escuro);
+    font-weight: 650;
+    padding: 10px;
+}
+.LoginWithFB span{
+    margin: auto;
+}
+
+.forgot{
+    font-size: 12px;
+    margin: auto;
+    text-align: center;
+    color:#00376B;
+    margin-bottom: -20px;
+   
+}
+.backImage{
+    margin-top: -510px;
+    margin-right: -173px;
+}
+.backImage img{
+    width:230px;
+    height:495px;
+}
+.createAccount{
+    width:350px;
+    height:60px;
+    border: 1px solid var(--cinza) ;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: auto;
+   padding: 20px;
+    font-size: 13px;
+    background-color: #FFFFFF;
+}
+.createAccount p{
+    margin:auto;
+    font-weight: 450;
+}
+.createAccount span{
+  color:var(--azul-claro)
+}
+.rightContai{
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+}
+.dowloadTheApp {
+    width:350px;
+    height:60px;
+}
+.dowloadTheApp img{
+    width:135px;
+    height:40px;
+}
+h3{
+    font-weight: 350;
+}
+
+@media (max-width:960px){
+    .cellPhones{
+        width:00px;
+        height:00px;
+
+    }
+    .Cell1{
+        width:0px;
+    }
+    .backImage{
+    }
+    .backImage img{
+        width:0px;
+        height:0px;
+    }
+   .rightContai{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-left:300px ;
+   }
+}
+@media (max-width:870px){
+    .cellPhones{
+        width:00px;
+        height:00px;
+
+    }
+    .Cell1{
+        width:0px;
+    }
+    .backImage{
+    }
+    .backImage img{
+        width:0px;
+        height:0px;
+    }
+   .rightContai{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-left:250px ;
+   }
+}
+@media (max-width:770px){
+    .cellPhones{
+        width:00px;
+        height:00px;
+
+    }
+    .Cell1{
+        width:0px;
+    }
+    .backImage{
+    }
+    .backImage img{
+        width:0px;
+        height:0px;
+    }
+   .rightContai{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-left:220px ;
+   }
+}
+@media (max-width:700px){
+    .cellPhones{
+        width:00px;
+        height:00px;
+
+    }
+    .Cell1{
+        width:0px;
+    }
+    .backImage{
+    }
+    .backImage img{
+        width:0px;
+        height:0px;
+    }
+   .rightContai{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+       margin-left: 165px;
+   }
+}
+@media (max-width:580px){
+    .cellPhones{
+        width:00px;
+        height:00px;
+
+    }
+    .Cell1{
+        width:0px;
+    }
+    .backImage{
+    }
+    .backImage img{
+        width:0px;
+        height:0px;
+    }
+   .rightContai{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+       margin-left: 115px;
+   }
+}
+@media (max-width:520px){
+    .cellPhones{
+        width:00px;
+        height:00px;
+
+    }
+    .Cell1{
+        width:0px;
+    }
+    .backImage{
+    }
+    .backImage img{
+        width:0px;
+        height:0px;
+    }
+   .rightContai{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-left: 30px;
+   }
+}
+@media (max-width:400px){
+    .cellPhones{
+        width:00px;
+        height:00px;
+
+    }
+    .Cell1{
+        width:0px;
+    }
+    .backImage{
+    }
+    .backImage img{
+        width:0px;
+        height:0px;
+    }
+   .rightContai{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        
+   }
+}
